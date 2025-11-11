@@ -30,7 +30,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 // ===== CONTACT US BUTTON (WhatsApp) =====
 document.getElementById("contact-btn").addEventListener("click", (e) => {
   e.preventDefault();
-  const number = "919959156648"; // Your WhatsApp number
+  const number = "918106103999"; // ✅ Correct WhatsApp number (no spaces)
   const msg = "Hello! I'm interested in Tech Homes PG. Can you share more details?";
   const url = `https://wa.me/${number}?text=${encodeURIComponent(msg)}`;
   window.open(url, "_blank");
@@ -50,7 +50,7 @@ function sendToWhatsApp(event) {
     return;
   }
 
-  const number = "919959156648"; // Your WhatsApp number
+  const number = "918106103999"; // ✅ Correct WhatsApp number
   const text = `*New PG Enquiry*\n\n👤 Name: ${name}\n📧 Email: ${email}\n📞 Phone: ${phone}\n💬 Message: ${message}`;
   const url = `https://wa.me/${number}?text=${encodeURIComponent(text)}`;
   window.open(url, "_blank");
@@ -59,7 +59,7 @@ function sendToWhatsApp(event) {
 
 // ===== BOOK NOW BUTTONS =====
 function bookNow(plan) {
-  const number = "919959156648";
+  const number = "918106103999"; // ✅ Correct WhatsApp number
   const msg = `Hello! I’d like to book the *${plan}* plan at Tech Homes PG.`;
   const url = `https://wa.me/${number}?text=${encodeURIComponent(msg)}`;
   window.open(url, "_blank");
